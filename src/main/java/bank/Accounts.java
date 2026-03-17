@@ -4,9 +4,9 @@ public class Accounts {
 
   private int id;
   private String type;
-  private int balance;
+  private double balance;
 
-  public Accounts(int id, String type, int balance){
+  public Accounts(int id, String type, double balance){
     setId(id);
     setType(type);
     setBalance(balance);
@@ -28,11 +28,11 @@ public class Accounts {
     this.type = type;
   }
 
-  public int getBalance() {
+  public double getBalance() {
     return this.balance;
   }
 
-  public void setBalance(int balance) {
+  public void setBalance(double balance) {
     this.balance = balance;
   }
 
